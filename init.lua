@@ -105,9 +105,10 @@ vim.o.number = true
 vim.o.relativenumber = true
 
 -- Replace tabs with spaces, set tab width to 4
-vim.o.tabstop = 4
+vim.o.tabstop = 2
 vim.o.expandtab = true
-vim.o.shiftwidth = 4
+vim.o.shiftwidth = 2
+vim.opt.wrap = false
 
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.o.mouse = 'a'
